@@ -1,0 +1,23 @@
+@import '~foundation-sites/scss/foundation';
+@include foundation-everything;
+
+$space: 2.5rem;
+
+.page-title{
+  margin-top: $space;
+  margin-bottom: $space;
+}
+
+.notification{
+  background-color: $warning-color;
+  margin: 0px;
+}
+
+.p-notification{
+  margin-bottom: 0px;
+}
+
+.homepage {
+  padding-right: 0px;
+  padding-left: 0px;
+}
